@@ -1,3 +1,3 @@
-rootProject.name = 'mmex-react'
+rootProject.name = 'mmex.react'
 
 include ':app'

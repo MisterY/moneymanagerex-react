@@ -1,4 +1,4 @@
-package com.mmex-react;
+package com.mmex.react;
 
 import android.app.Application;
 

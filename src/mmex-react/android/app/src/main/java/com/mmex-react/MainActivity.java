@@ -1,4 +1,4 @@
-package com.mmex-react;
+package com.mmex.react;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "mmex-react";
+        return "mmex.react";
     }
 }
