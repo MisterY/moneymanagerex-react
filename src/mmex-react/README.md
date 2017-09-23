@@ -47,7 +47,7 @@ Open it in the [Expo app](https://expo.io) on your phone to view it. It will rel
 
 Sometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:
 
-```
+```console
 npm start -- --reset-cache
 # or
 yarn start -- --reset-cache
@@ -152,7 +152,7 @@ Expo provides free hosting for the JS-only apps created by CRNA, allowing you to
 
 Install the `exp` command-line tool, and run the publish command:
 
-```
+```console
 $ npm i -g exp
 $ exp publish
 ```
@@ -179,19 +179,19 @@ If you're unable to load your app on your phone due to a network timeout or a re
 
 Try opening a web browser on your phone and opening the URL that the packager script prints, replacing `exp://` with `http://`. So, for example, if underneath the QR code in your terminal you see:
 
-```
+```text
 exp://192.168.0.1:19000
 ```
 
 Try opening Safari or Chrome on your phone and loading
 
-```
+```text
 http://192.168.0.1:19000
 ```
 
 and
 
-```
+```text
 http://192.168.0.1:19001
 ```
 
